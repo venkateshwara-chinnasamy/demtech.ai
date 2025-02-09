@@ -67,6 +67,35 @@ This project is a mock implementation of the AWS Simple Email Service (SES) API 
 - `pkg/stats`: Email statistics management.
 - `routes`: API route setup.
 
+## Makefile Commands
+
+The following commands are available in the `Makefile`:
+
+- **build**: Compile the project.
+    ```sh
+    make build
+    ```
+
+- **run**: Run the application.
+    ```sh
+    make run
+    ```
+
+- **test**: Run the tests.
+    ```sh
+    make test
+    ```
+
+- **clean**: Clean the build artifacts.
+    ```sh
+    make clean
+    ```
+
+- **dev**: Run the application in development mode with live reloading (requires `reflex`).
+    ```sh
+    make dev
+    ```
+
 ## Testing
 
 Run the tests using the following command:
